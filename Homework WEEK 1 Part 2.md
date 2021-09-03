@@ -8,7 +8,7 @@ React to user actions, run on mouse clicks, pointer movements, key presses.
 Send requests over the network to remote servers, download and upload files (so-called AJAX and COMET technologies).
 Get and set cookies, ask questions to the visitor, show messages.
 
-3. Document Object Model
+3. Document Object Modell
 
 4. ECMAScript (or ES) is a general-purpose programming language, standardised by Ecma International according to the document ECMA-262.
 

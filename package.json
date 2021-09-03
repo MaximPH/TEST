@@ -1,0 +1,23 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d dist/",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MaximPH/TEST.git"
+  },
+  "author": "MaximPH",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MaximPH/TEST/issues"
+  },
+  "homepage": "https://github.com/MaximPH/TEST#readme",
+  "dependencies": {
+    "gh-pages": "^3.2.3"
+  }
+}
