@@ -4,8 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "deploy": "gh-pages -d dist/",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "clean": "rmdir /s dist && mkdir dist",
+    "createDirs": "cd dist && mkdir cdd && mkdir js",
+    "build": "xcopy css \"dist/css\" && xcopy js \"dist/js\" && copy index.html dist",
+    "deploy": "gh-pages -d dist/"
   },
   "repository": {
     "type": "git",
